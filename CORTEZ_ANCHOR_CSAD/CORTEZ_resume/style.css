@@ -1,0 +1,115 @@
+body {
+    background-color: #add8e6;
+    width: 100%;
+    height: auto;
+}
+
+body > div {
+	width: 80%;
+	margin: auto;
+}
+
+h1 {
+	background-color: red;
+	font-family: 'Aclonica', sans-serif;
+	font-size: 3em;
+	text-align: center;
+}
+
+div.introduction {
+	width: 80%;
+}
+
+p.intro {
+	font-size: 1.5em;
+	font-family: 'Sanchez', serif;
+	text-align: justify;
+	background-color: #B0EBFC;
+	width: 100%;
+	margin: auto;
+	height: 600px;
+}
+
+h2 {
+	font-size: 2em;
+	font-family: 'Aclonica', sans-serif;
+	text-align: center;
+}
+
+div.itSkills {
+	background-color: #59F88C;
+	padding-bottom: 5px;
+}
+
+div.itSkills > ul {
+	font-size: 1.5em;
+	font-family: 'Sanchez', serif;
+	background-color: white;
+	width: 80%;
+	margin: auto;
+}
+
+
+div.attainment {
+	background-color: #FCE149;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+div.attainment > div {
+	font-size: 1.5em;
+	font-family: 'Sanchez', serif;
+	background-color: #ffffff;
+	width: 75%;
+	margin: auto;
+}
+
+div.seminars {
+	background-color: #F94431;
+	padding-bottom: 5px;
+}
+
+div.seminars > ul {
+	font-size: 1.5em;
+	font-family: 'Sanchez', serif;
+	background-color: white;
+	width: 90%;
+	margin: auto;
+}
+
+div.hobbies {
+	background-color: #B845F9;
+	padding-bottom: 5px;
+}
+
+div.hobbies > ul {
+	font-size: 1.5em;
+	font-family: 'Sanchez', serif;
+	background-color: white;
+	width: 90%;
+	margin: auto;
+}
+
+footer > div {
+	color: white;
+}
+
+ul.navBar {
+	list-style-type: none;
+    padding: 1em;
+    background-color: white;
+}
+
+li.navBar {
+	display: inline;
+}
+
+li a.navBar {
+	padding: 10px;
+	font-size: 2em;
+	margin: 3px;
+}
+
+a:hover.navBar {
+	background-color: gray;
+}

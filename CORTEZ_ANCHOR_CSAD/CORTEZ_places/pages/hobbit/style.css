@@ -1,0 +1,45 @@
+body {
+	background-color: #f0a573;
+    height: auto;
+}
+
+hr {
+	border: 10px solid violet;
+}
+
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+div.all {
+	width: 90%;
+
+}
+
+div.description {
+	width: 75%;
+	text-align: justify;
+	font-size: 1.5em;
+	border: 5px solid red; 
+	padding: 10px;
+	margin-bottom: 10px;
+	font-family: 'PT Serif', serif;
+}
+
+td {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+img {
+	width: 400px;
+	height: 320px;
+}
+
+ul.places {
+	font-size: 1.5em;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>5 Beautiful Places</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet">
+
+    <script>
+		function writeText(txt, value) {
+			document.getElementById("title").innerHTML=txt;
+
+			if(value == 1)
+			{
+				document.body.style.backgroundColor = "#f08073";
+			} else if(value == 2) {
+				document.body.style.backgroundColor = "#c1e8e1";
+			} else if(value == 3) {
+				document.body.style.backgroundColor = "#f0a573";
+			} else if(value == 4) {
+				document.body.style.backgroundColor = "#c8e0d1";
+			} else if(value == 5) {
+				document.body.style.backgroundColor = "#99d6de";
+			}
+		}
+
+		function dissolveText(txt) {
+			document.getElementById("title").innerHTML=txt;
+			document.body.style.backgroundColor = "white";
+		}
+	</script>
+</head>
+<base target="newSpace"/>
+<body>
+    <!--CORTEZ, STEPHEN GABRIEL S.-->
+    <!--3/30/2021-->
+
+    <ul>
+      <li style="padding-right: 20px; float:left;"><a href="../../index.html">Home</a></li>
+      <li style="padding-top: 10px; padding-bottom: 3px;"><a href="pages/katz/index.html" onMouseOver="writeText('Katz\'s Deli | New York City', '1')" onMouseOut="dissolveText('Image Mapping', '0')">Katz's Deli</a></li>
+      <li style="padding-top: 10px; padding-bottom: 3px;"><a href="pages/franklins/index.html" 	onMouseOver="writeText('Franklin\'s Barbeque | Austin, Texas', '2')" onMouseOut="dissolveText('Image Mapping', '0')">Franklin's</a></li>
+      <li style="padding-top: 10px; padding-bottom: 3px;"><a href="pages/hobbit/index.html" onMouseOver="writeText('Hobbiton | New Zealand', '3')" onMouseOut="dissolveText('Image Mapping', '0')">Hobbiton</a></li>
+      <li style="padding-top: 10px; padding-bottom: 3px;"><a href="pages/courthouse/index.html" onMouseOver="writeText('Courthouse Square | Universal Studios California', '4')" onMouseOut="dissolveText('Image Mapping', '0')">Courthouse</a></li>
+      <li style="padding-top: 10px; padding-bottom: 3px;"><a href="pages/deadSea/index.html" onMouseOver="writeText('Dead Sea | Jordan', '5')" onMouseOut="dissolveText('Image Mapping', '0')">Dead Sea</a></li>
+      <li style="float: right;"><a href="../CORTEZ_regForm/index.html">Reg Form</a></li>
+      <li style="float: right;"><a href="../CORTEZ_gallery/index.html">Gallery</a></li>
+    </ul>
+
+    <center>
+	    <h1 id="title">Image Mapping</h1>
+
+	    <img src="assets/collage.png" width="1280" height="800" alt="Places Collage" usemap="#collage">
+
+	    <map name="collage">
+			<area shape="rect" coords="33, 214, 424, 469" href="pages/katz/index.html"	onMouseOver="writeText('Katz\'s Deli | New York City', '1')" onMouseOut="dissolveText('Image Mapping', '0')">
+
+			<area shape="rect" coords="445, 214, 836, 469" href="pages/franklins/index.html" 	onMouseOver="writeText('Franklin\'s Barbeque | Austin, Texas', '2')" onMouseOut="dissolveText('Image Mapping', '0')">
+
+			<area shape="rect" coords="857, 215, 1248, 469" href="pages/hobbit/index.html" 	onMouseOver="writeText('Hobbiton | New Zealand', '3')" onMouseOut="dissolveText('Image Mapping', '0')">
+
+			<area shape="rect" coords="240, 490, 630, 744" href="pages/courthouse/index.html" onMouseOver="writeText('Courthouse Square | Universal Studios California', '4')" onMouseOut="dissolveText('Image Mapping', '0')">
+
+			<area shape="rect" coords="652, 490, 1041, 744" href="pages/deadSea/index.html"	onMouseOver="writeText('Dead Sea | Jordan', '5')" onMouseOut="dissolveText('Image Mapping', '0')">
+		</map>
+	<center>
+
+</body>
+</html>

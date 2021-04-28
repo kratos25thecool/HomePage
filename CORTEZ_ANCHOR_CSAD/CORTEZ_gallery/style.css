@@ -1,0 +1,93 @@
+body {
+    background-color: #add8e6;
+    width: 100%;
+    height: auto;
+}
+
+hr {
+	border: 10px solid violet;
+}
+
+ul {
+	list-style-type: none;
+    padding: 1em;
+    background-color: white;
+}
+
+li {
+	display: inline;
+}
+
+li a {
+	padding: 10px;
+	font-size: 2em;
+	margin: 3px;
+}
+
+a:hover {
+	background-color: gray;
+}
+
+h1 {
+	align-items: center;
+	background-color: violet;
+	color: black;
+	text-align: center;
+	width: 50%;
+	font-size: 4em;
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: italic;
+}
+
+h2 {
+	align-items: baseline;
+	color: black;
+	text-align: center;
+	font-size: 3em;
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: italic;
+}
+
+h3 {
+	align-items: baseline;
+	color: black;
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+table {
+	border: 10px solid red;
+	padding: 25px;
+}
+
+table.family img {
+	width: 500px;
+	height: 320px;
+}
+
+table.college img {
+	width: 500px;
+	height: 320px;
+}
+
+table.music td {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+table.music img {
+	width: 300px;
+	height: 300px;
+}
+
+table.movie img {
+	width: 500px;
+	height: 320px;
+}
+
+div.all {
+	width: 90%;
+}

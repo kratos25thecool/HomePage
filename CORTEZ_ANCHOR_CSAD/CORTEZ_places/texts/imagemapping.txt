@@ -1,0 +1,37 @@
+<base target="newSpace"/>
+
+<img collage>
+
+<map name="">
+	<area shape="rect" coords="upper-right, lower-left" href="#" 	onMouseOver="writeText('blah')" onMouseOut="dissolveText('')">
+
+	<area shape="circle" coords="center x, center y, radius" href="#">
+	
+	<area shape="poly" coords="everycorner" href="#">
+</map>
+
+
+radius: (right-x - left-x) / 2
+
+<script>
+	function writeText(txt) {
+		document.getElementById("desc").innerHTML=txt;
+	}
+
+	function dissolveText(txt) {
+		document.getElementById("desc").innerHTML=txt;
+	}
+</script>
+
+katz: 33, 214 / 424, 469
+franklins: 445, 214 / 836, 469
+Hobitton: 857, 215 / 1248, 469
+Courthouse: 240, 490 / 630, 744
+Dead Sea: 652, 490 / 1041, 744
+
+rect: Jupiter: 38, 21, 156, 136
+circle: pluto: 197, 23, 15
+poly: Saturn: 325, 36, 344, 16, 369, 14, 392, 34, 412, 38, 428, 50, 416, 59, 391, 64, 377, 79, 362, 85, 347, 82, 322, 63, 297, 56, 290, 49, 308, 37, 325, 36
+
+597 - 555
+ 

@@ -1,0 +1,91 @@
+h1 {
+	align-items: center;
+	background-color: violet;
+	color: white;
+	text-align: center;
+	width: 75%;
+	font-size: 3em;
+	font-family: 'Aclonica', sans-serif;
+	font-style: italic;
+}
+
+body {
+	background-color: black;
+	width: 100%;
+    height: auto;
+}
+
+hr {
+	border: 10px solid violet;
+}
+
+ul {
+	list-style-type: none;
+    padding: 1em;
+    background-color: white;
+}
+
+li {
+	display: inline;
+}
+
+li a {
+	padding: 10px;
+	font-size: 2em;
+	margin: 3px;
+}
+
+li:hover {
+	background-color: gray;
+}
+
+.classChild {
+	background-color: green;
+	color: white;
+	font-size: 2em;
+	width: 19.5%;
+	min-width: 335px;
+	height: auto;
+	font-family: 'Aclonica', sans-serif;
+	font-style: italic;
+}
+
+.classTeen {
+	background-color: yellow;
+	color: black;
+	font-size: 2em;
+	width: 28.7%;
+	min-width: 495px;
+	font-family: 'Aclonica', sans-serif;
+	font-style: italic;
+}
+
+.classCollege {
+	background-color: red;
+	color: white;
+	font-size: 2em;
+	width: 19.5%;
+	min-width: 335px;
+	font-family: 'Aclonica', sans-serif;
+	font-style: italic;
+}
+
+.classContent {
+	color: white;
+	font-size: 1em;
+	font-family: 'Sanchez', serif;
+	text-align: justify;
+	word-spacing: 3px;
+}
+
+.classFooter {
+
+	color: white;
+
+}
+
+.divAdjustable {
+	width:90%;
+    height: auto;
+    margin: auto;
+}

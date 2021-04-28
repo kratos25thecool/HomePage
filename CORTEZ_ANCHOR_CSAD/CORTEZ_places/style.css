@@ -1,0 +1,24 @@
+h1 {
+	font-family: 'Chango', cursive;
+	font-size: 3em;
+}
+
+ul {
+	list-style-type: none;
+    padding: 1em;
+    background-color: white;
+}
+
+li {
+	display: inline;
+}
+
+li a {
+	padding: 10px;
+	font-size: 2em;
+	margin: 3px;
+}
+
+a:hover {
+	background-color: gray;
+}
